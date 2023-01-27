@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+     
+    }
+.banner-card {
+    position: relative;
+    max-width: 100%;
+ 
+}   
+
+.banner-text {
+    position: absolute;
+    top: 17%;
+    color: fff;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000000;
+
+   
+   
+
+
+}
+
+#imgBackground {
+    background-image: url("house2.jpg");
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.bg2-image {
+    background-image: url(123.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 80px; 
+    left: 0;
+    width: 100%;
+    height: calc( 1150px); 
+    background-color: gray;
+    
+    
+  }
+  
+  .text-box {
+    width: 700px;
+    height: 500px; 
+    padding: 10px;
+    border: 1px solid #000; 
+    background-color: rgb(115, 115, 115);
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.text-box-2 {
+    width: 700px;
+    height: 500px; 
+    padding: 10px; 
+    border: 1px solid #000;
+    background-color: rgb(115, 115, 115);
+    position: absolute;
+    top: 680px; 
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 3;
+    
+   
+}
+
+nav{
+    background: #A8A8A8;
+    height: 80px;
+    width: 100%;
+
+
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20x;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+a.active,a:hover {
+    background: #528ab6;
+    transition: .5s;
+
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 0;
+  }
+ 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; 
+    padding: 10px;
+    position: center;
+    top: 120px; 
+
+    left: 400px;
+  }
+  
+  .grid-container img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+  nav {
+    height: 80px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+
+
+
+
+
+  /* code for the "what we provided tab*/
+  .page-background {
+    background-image: url(int2.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: calc( 1150px); 
+    background-color: gray;
+    
+  
+  }
+  .overlay {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    
+    color: rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .redirect-box {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    border: 3px solid #597fbd;
+    text-align: center;
+    color: #000;
+    margin: 20px auto;
+    width: 800px;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  
+  .redirect-box:hover {
+    background-color: #597fbd;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+  .specific-page {
+    background-color: #505050;
+  }
+
+  .specific-page {
+    background-color: #505050;
+  }
+
+
+
+
+
+
+.container{
+    margin-top: 200px;
+    width: 100%;
+    height: 600px;
+
+
+}
+.map-page #googleMap {
+    margin-top: 120px;
+  }
+
+  #text-box {
+    position: absolute;
+    top: 800px;
+    left: 10px;
+  }
